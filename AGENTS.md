@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## App conventions
+- Keep bilingual café copy and menu records in one mock data module so language switching has a single source of truth.
+- Keep this app client-interactive without server calls; only language preference is persisted locally.
+- Define illustration colors, layout styling and animation rules in the global design system so presentation remains consistent.
